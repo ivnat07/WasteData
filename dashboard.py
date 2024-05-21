@@ -4,7 +4,7 @@ import altair as alt
 import plotly.express as px
 
 # Load data
-file_path = 'D:/DV/Assign2_TanviKulkarni/WasteData/assign2_wastedata.csv'  # Adjust the path if running locally
+file_path = './assign2_wastedata.csv'  # Adjust the path if running locally
 waste_data = pd.read_csv(file_path)
 
 # Title of the dashboard
